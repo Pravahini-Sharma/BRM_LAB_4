@@ -18,6 +18,8 @@ public class Lab4 {
 		System.out.println("b= "+object.b);
 		object.multiply();
 		
+		System.out.println("Now time for division");
+		
 		
 	
 	}
@@ -44,3 +46,4 @@ class Test2
     	   System.out.println("Multiplication of a and b is "+c);
        }
 }
+
