@@ -11,6 +11,14 @@ public class Lab4 {
 		
 		obj.add();
 		
+		Test2 object = new Test2();
+		object.a=34;
+		System.out.println("a= "+object.a);
+		object.b=4;
+		System.out.println("b= "+object.b);
+		object.multiply();
+		
+		
 	
 	}
 
@@ -26,3 +34,13 @@ class Test
     }
 }
 
+class Test2
+{
+       int a, b, c;
+       
+       void multiply()
+       {
+    	   c=a*b;
+    	   System.out.println("Multiplication of a and b is "+c);
+       }
+}
